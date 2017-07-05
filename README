@@ -1,4 +1,4 @@
-My implementation is in Python 3. It uses numpy, in addition to several python standard library modules.
+My implementation is in Python 3 (I've assumed that the shell command 'python' launches the Python 3 interpreter). It uses numpy, in addition to several python standard library modules.
 
 
 Most of the implementation is straightforward. Aspects of the problem include building up an undirected graph that represents the global social network, allowing modification of that network as users friend and unfriend each other, and associating each node (user) in the graph with a purchase history.
