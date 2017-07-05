@@ -1,1 +1,6 @@
 My implementation is in Python 3. It uses numpy, in addition to several python standard library modules.
+
+
+Most of the implementation is straightforward. Aspects of the problem include building up an undirected graph that represents the global social network, allowing modification of that network as users friend and unfriend each other, and associating each node (user) in the graph with a purchase history.
+
+Identifying anomalous purchases requires querying all nodes within the social network of the user who originated a purchase. This is implemented using a breadth first search.  The graph itself is implemented as a dictionary, which enables efficient lookup and dynamic modification. 
